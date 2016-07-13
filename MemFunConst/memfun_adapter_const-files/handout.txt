@@ -1,0 +1,17 @@
+For this lab you will implement a member function adapter for a member
+function that takes a single argument (STL allows only void member functions.)
+Refer to the example implementation of member function adapter with no
+arguments, see class web-site.
+
+You'll have to implement 2 classes - to allow both const a non-const member functions.
+The classes should have different names - overloading of class name is not allowed.
+
+Helper functions for the above classes may and should have the same name.
+
+In test7,test8 your adapter class will be used with bind1st - to allow that you have
+to have typedef's in your classes:
+first_argument_type
+second_argument_type
+result_type
+
+Your code should be in a single file "memfun.adapter.h", 
